@@ -1,0 +1,250 @@
+
+
+* {
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+body{
+  background-color: #050505;
+}
+
+li, a {
+    font-family:"Workbench", sans-serif ;
+    font-weight: 500;
+    font-size: 2vw;
+    color: azure;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0dc8c4;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto ;
+}
+
+button {
+    padding: 1.5vh 2vw;
+    background-color: #0dc8c4;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family:"Workbench", sans-serif ;
+    font-size: 2vw;
+}
+
+button:hover{
+    background-color: #fd9207;
+}
+
+
+
+.tagline {
+    text-align: center;
+    background-color: transparent;
+}
+
+.tagline h2{
+    font-size: 4.7vw;
+    color: #fff;
+    margin-bottom:5vh;
+    margin-top: -35vh;
+    line-height: 1.2;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container p{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    font-size:  1.5vw;
+    color:#fff;
+    background-color: transparent;
+
+}
+
+
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.about h2{
+  font-size: 4vw;
+  margin-bottom: 7vh;
+  text-align: center;
+  color: #fff;
+
+}
+
+.about p{
+  margin-bottom: 20vh;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  margin-top: 45vh;
+}
+
+.antonov{
+  text-align: center;
+  color: #f3eded;
+  margin-bottom: 5vw;
+  font-size: 4vw;
+  margin-top: 10vh;
+}
+
+.card-row {
+  display: inline-flex;
+  justify-content: space-between;
+  
+  
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  min-width: 250px;
+  margin-bottom: 20px;
+  background: linear-gradient(145deg, #fd9207,#0dc8c4,#014061 );
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border-spacing: 3vw;
+  margin-right: 15vh;
+  margin-left: 3vh;
+  
+  
+}
+
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 30px #0dc8c4b3;
+}
+
+.card-img{
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+}
+
+.image{
+  max-width: 300px;
+  max-height: 250px;
+  border-radius: 20px;
+}
+
+.card-content {
+  padding: 3px;
+}
+
+.card h2 {
+  color: #0c0b40;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #050505;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+
+
+  
+
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.end-heading{
+color: #0dc8c4;
+font-weight: bold;
+
+
+}
+
+.end-phrase{
+color: #fd9207;
+}
+
+.cpr{
+color: #fff;
+}
+
+.sdc{
+color: #fff;
+}
+
+.a:link{
+  color: #0dc8c4;
+  text-decoration: none;
+}
